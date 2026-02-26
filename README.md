@@ -38,5 +38,13 @@ La app está pensada como base para aprendizaje, prototipos o evolución hacia u
 
 ---}
 
-Nombre del proyecto: Delivery
+Nombre del proyecto: DeliveryApp tipo Rappi
 
+**¿Qué problema resuelve el sistema?**
+El sistema busca facilitar la compra de productos y alimentos a domicilio mediante una aplicación móvil, permitiendo que los usuarios realicen pedidos de manera rápida y segura sin necesidad de desplazarse físicamente.
+
+**¿Quién lo usará?**
+Será utilizado por clientes que realizan pedidos, repartidores encargados de las entregas, negocios afiliados que ofrecen productos y administradores que supervisan el funcionamiento general del sistema.
+
+**¿Qué pasaría si no existiera?**
+Los usuarios tendrían menos opciones para comprar desde casa y los negocios perderían una oportunidad importante de ampliar su alcance y aumentar sus ventas.
