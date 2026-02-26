@@ -74,3 +74,19 @@ Inventario responde a Pedidos
 Pagos responde a Pedidos
 Pedidos responde a Pagos (actualizando estado)
 Notificaciones responde enviando el mensaje correspondiente
+
+4 **Tipo de arquitectura**
+Microservicios 
+
+**¿Cuántos usuarios tendrá el sistema?**
+Puede tener muchos usuarios  como clientes, repartidores y administradores
+
+**¿Necesita escalar?**
+Sí, porque en horas pico puede haber muchos pedidos al mismo tiempo
+
+**¿Es un sistema pequeño o grande?**
+Es un sistema mediano a grande, ya que maneja múltiples módulos y procesos simultáneos.
+
+**Justificacion**
+Elegimos la arquitectura de microservicios porque el sistema está dividido en módulos independientes como usuarios, pedidos, pagos e inventario, los cuales pueden funcionar y escalar de manera autónoma. Además, permite mayor flexibilidad, mantenimiento más sencillo y mejor rendimiento cuando el número de usuarios aumenta
+
