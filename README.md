@@ -113,3 +113,16 @@ Proveedor o negocio afiliado: Encargado de gestionar su catálogo de productos, 
 
 **¿Todos pueden hacer lo mismo?**
 No. Cada tipo de usuario tiene funciones y permisos distintos dentro del sistema, según su rol cliente, repartidor, proveedor o administrador
+
+7 **Si falla el servicio de pagos**
+No se podrían confirmar pedidos
+
+**Si falla la base de datos**
+Si falla la base de datos
+
+**Si falla el servidor principal**
+La aplicación dejaría de funcionar
+
+**Posibles soluciones**
+Reintentos automáticos, Copias de seguridad, Réplicas de servidores, Monitoreo constante
+
