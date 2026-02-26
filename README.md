@@ -90,3 +90,14 @@ Es un sistema mediano a grande, ya que maneja múltiples módulos y procesos sim
 **Justificacion**
 Elegimos la arquitectura de microservicios porque el sistema está dividido en módulos independientes como usuarios, pedidos, pagos e inventario, los cuales pueden funcionar y escalar de manera autónoma. Además, permite mayor flexibilidad, mantenimiento más sencillo y mejor rendimiento cuando el número de usuarios aumenta
 
+5 **Que informacion debe guardarse** 
+Usuarios, Pedidos, Pagos, Historial,Productos
+
+**Que datos son criticos**
+Informacion de pagos, pedidos realizados, datos de usuarios
+
+**Que pasaria si se pierden**
+Se afectarian las ventas, la confianza del usuario y el historial de compras
+
+**¿Una sola base de datos o varias?**
+En microservicios, cada servicio debería tener su propia base de datos para mayor independencia
