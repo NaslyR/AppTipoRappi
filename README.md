@@ -48,3 +48,12 @@ Será utilizado por clientes que realizan pedidos, repartidores encargados de la
 
 **¿Qué pasaría si no existiera?**
 Los usuarios tendrían menos opciones para comprar desde casa y los negocios perderían una oportunidad importante de ampliar su alcance y aumentar sus ventas.
+
+2 **¿Qué funciones principales tiene el sistema?**
+El sistema permite el registro e inicio de sesión de usuarios, la visualización de productos, la creación y gestión de pedidos, el procesamiento de pagos, el control de inventario y el envío de notificaciones.
+
+**¿Qué partes pueden trabajar por separado?**
+Los módulos de autenticación, pedidos, pagos, inventario y notificaciones pueden funcionar de manera independiente, ya que cada uno cumple una responsabilidad específica dentro del sistema.
+
+**¿Qué procesos son independientes?**
+El inicio de sesión, la consulta de productos, la validación de pagos y el envío de notificaciones pueden ejecutarse sin depender directamente del funcionamiento simultáneo de todos los demás servicios.
