@@ -101,3 +101,15 @@ Se afectarian las ventas, la confianza del usuario y el historial de compras
 
 **¿Una sola base de datos o varias?**
 En microservicios, cada servicio debería tener su propia base de datos para mayor independencia
+
+6 **¿Quién usará el sistema?**
+Administrador: Encargado de supervisar el funcionamiento general del sistema, gestionar usuarios, monitorear pedidos y resolver incidencias.
+
+Cliente: Persona que utiliza la aplicación para consultar productos, realizar pedidos y efectuar pagos.
+
+Repartidor: Responsable de recoger y entregar los pedidos a los clientes.
+
+Proveedor o negocio afiliado: Encargado de gestionar su catálogo de productos, actualizar precios y controlar su inventario dentro de la plataforma.
+
+**¿Todos pueden hacer lo mismo?**
+No. Cada tipo de usuario tiene funciones y permisos distintos dentro del sistema, según su rol cliente, repartidor, proveedor o administrador
