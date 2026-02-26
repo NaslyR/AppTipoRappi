@@ -57,3 +57,20 @@ Los módulos de autenticación, pedidos, pagos, inventario y notificaciones pued
 
 **¿Qué procesos son independientes?**
 El inicio de sesión, la consulta de productos, la validación de pagos y el envío de notificaciones pueden ejecutarse sin depender directamente del funcionamiento simultáneo de todos los demás servicios.
+
+3 **¿Qué servicio necesita información de otro?**
+El servicio de Pedidos necesita información del servicio de Inventario para verificar la disponibilidad de los productos seleccionados.
+
+**Quien solicita datos**
+Autenticación solicita datos a Usuarios
+Pedidos solicita datos a Inventario.
+Pedidos solicita validación a Pagos
+Pagos solicita actualización a Pedidos
+Pedidos solicita envío de mensaje a Notificaciones
+
+**¿Quién responde?**
+Usuarios responde a Autenticación
+Inventario responde a Pedidos
+Pagos responde a Pedidos
+Pedidos responde a Pagos (actualizando estado)
+Notificaciones responde enviando el mensaje correspondiente
